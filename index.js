@@ -7,8 +7,12 @@ const PORT = process.env.PORT || 3000;
 
 const cors = require('cors');
 app.use(cors({
-    origin: 'https://bajaj-nine-orpin.vercel.app' // Replace with your frontend URL
+    origin: [
+        'https://bajaj-nine-orpin.vercel.app',
+        'https://bajaj-c74990n63-jainsarthak19s-projects.vercel.app'
+    ]
 }));
+
 
 
 app.use(bodyParser.json());
