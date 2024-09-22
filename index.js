@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 const cors = require('cors');
 app.use(cors({
-    origin: 'https://your-vercel-frontend-url.com' // Replace with your frontend URL
+    origin: 'https://bajaj-nine-orpin.vercel.app' // Replace with your frontend URL
 }));
 
 
